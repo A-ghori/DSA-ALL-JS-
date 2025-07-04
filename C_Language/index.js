@@ -191,6 +191,50 @@
 // console.log(reverseString("Shubhayu"));
 
 
+<<<<<<< HEAD
+// //FIZZ BUZZ
+// for (let i = 0; i <= 100; i++){
+//     if(i%3==0 && i%5==0){ //3->Fizz 5->Buzz 0->FizzBuzz 6->Fizz 10->Buzz 
+//         console.log("FizzBuzz")
+//     }else if(i%3==0){
+//         console.log("Fizz")
+//     }else if(i%5==0){
+//         console.log("Buzz")
+//     }else{
+//         console.log(i)
+//     }
+// }
+
+// // Count Even and odd numbers in an array
+// // let nums = prompt("Enter numbers []");
+// // let arr = nums.split(",").map(Number);
+// // for(let i = 0;i<nums.length;i++){
+// //     if(nums[i]%2===0){
+// //         console.log("The number is Even ");
+// //     }
+// //     else 
+// //     {
+// //         console.log("The number is odd");
+// //     }
+// // }
+
+
+
+// // Output:
+// // Even: 4
+// // Odd: 3
+
+
+// let nums1 = "1,2,3,4,5";
+// let arr1 = nums1.split(",");
+
+// console.log(arr1); // ["1", "2", "3", "4", "5"]
+
+// let arr = ["1", "2", "3", "4"];
+// let nums = arr.map(Number);
+
+// console.log(nums); // [1, 2, 3, 4]
+=======
 //FIZZ BUZZ
 for (let i = 0; i <= 100; i++){
     if(i%3==0 && i%5==0){ //3->Fizz 5->Buzz 0->FizzBuzz 6->Fizz 10->Buzz 
@@ -233,3 +277,4 @@ let arr = ["1", "2", "3", "4"];
 let nums = arr.map(Number);
 
 console.log(nums); // [1, 2, 3, 4]
+>>>>>>> 884987794d10ba5695b21f53fc69020d950de5ec
