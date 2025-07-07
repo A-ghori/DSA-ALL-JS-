@@ -191,6 +191,7 @@
 // console.log(reverseString("Shubhayu"));
 
 
+<<<<<<< HEAD
 // //FIZZ BUZZ
 // for (let i = 0; i <= 100; i++){
 //     if(i%3==0 && i%5==0){ //3->Fizz 5->Buzz 0->FizzBuzz 6->Fizz 10->Buzz 
@@ -233,7 +234,7 @@
 // let nums = arr.map(Number);
 
 // console.log(nums); // [1, 2, 3, 4]
-
+=======
 //FIZZ BUZZ
 for (let i = 0; i <= 100; i++){
     if(i%3==0 && i%5==0){ //3->Fizz 5->Buzz 0->FizzBuzz 6->Fizz 10->Buzz 
@@ -276,4 +277,4 @@ let arr = ["1", "2", "3", "4"];
 let nums = arr.map(Number);
 
 console.log(nums); // [1, 2, 3, 4]
-
+>>>>>>> 884987794d10ba5695b21f53fc69020d950de5ec
