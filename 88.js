@@ -1,4 +1,4 @@
-// Merged SOrted Array
+// Merged Sorted Array
 
 var merge = function(nums1, m, nums2, n) {
     let p1 = m-1;
