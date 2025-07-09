@@ -27,13 +27,17 @@ return newnode;
 };
 
 
-//Traversal
-void linkedlist(struct ListNode *ptr){
-    while(ptr != NULL){
-        printf("Elements are : %d \n", ptr -> val);
-        ptr = ptr -> next;
-    }
-}
+// //Traversal
+// void linkedlist(struct ListNode *ptr){
+//     while(ptr != NULL){
+//         printf("Elements are : %d \n", ptr -> val);
+//         ptr = ptr -> next;
+//     }
+// }
+
+
+
+
 
 struct ListNode* mergeTwoLists(struct ListNode* list1, struct ListNode* list2) {
 
@@ -75,7 +79,7 @@ int main() {
     // Merge and print
     struct ListNode* merged = mergeTwoLists(list1, list2);
     printf("Merged List:\n");
-    linkedlist(merged);
+    // linkedlist(merged);
 
     return 0;
 }
