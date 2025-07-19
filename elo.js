@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // const Probability = (rating1,rating2)=>{
 //     return 1/(1+Math.pow(10,(rating1-rating2) /400));
 // }
@@ -21,7 +21,7 @@
 // Outcome = 1;
 // k = 30;
 // eloRating(Ra,Rb,Outcome)
-=======
+
 const Probability = (rating1,rating2)=>{
     return 1/(1+Math.pow(10,(rating1-rating2) /400));
 }
@@ -44,4 +44,4 @@ let Rb= 900;
 Outcome = 1;
 k = 30;
 eloRating(Ra,Rb,Outcome)
->>>>>>> 884987794d10ba5695b21f53fc69020d950de5ec
+
