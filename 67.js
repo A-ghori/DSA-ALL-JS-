@@ -20,7 +20,7 @@ while( i>=0 || j>=0 || carry>0){
     j--;
 }
 
-return result.reverse().join('')
+return result.reverse().join('') // join('') JavaScript ka ek array method hai jo array ke elements ko ek string me convert karta hai, aur unke beech me specified separator (yahan '', yani empty string) use karta hai.
 };
 
 
