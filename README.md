@@ -1,3 +1,4 @@
+
 # DSA-ALL-JS--1
 
 This repository contains a comprehensive collection of Data Structures and Algorithms (DSA) implementations and problem-solving exercises in JavaScript and C. The goal is to provide a hands-on resource for learning, practicing, and experimenting with various DSA concepts and coding challenges.
@@ -43,6 +44,10 @@ This repository contains a comprehensive collection of Data Structures and Algor
      ./AddTwoNums
      ```
 
+## Profiles
+
+- **LeetCode:** [https://leetcode.com/u/Bubu123/](https://leetcode.com/u/Bubu123/)
+
 ## Contributing
 
 This repository is primarily for personal learning and experimentation, but contributions and suggestions are welcome. Please open an issue or submit a pull request for improvements.
@@ -52,5 +57,4 @@ This repository is primarily for personal learning and experimentation, but cont
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
-
 *Happy Coding!*
