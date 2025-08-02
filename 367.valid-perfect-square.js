@@ -14,8 +14,8 @@ var isPerfectSquare = function(num) {
 //     let sq = Number(num)
 //     let cb = (c**sq)
 // return cb
-
-let sqrt = Math.floor(Math.sqrt(num))
+let c = Number(num)
+let sqrt = Math.floor(Math.sqrt(c))
 return sqrt * sqrt === num
 };
 // @lc code=end
