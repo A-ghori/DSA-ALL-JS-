@@ -11,7 +11,7 @@
  */
 var lengthOfLastWord = function(s) {
     let n = s.trim();
-let m = s.split(" ");
+let m = n.split(" ");
 let last = m[m.length - 1];
 return last.length
 
