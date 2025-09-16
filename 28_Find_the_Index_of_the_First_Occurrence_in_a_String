@@ -1,0 +1,17 @@
+var strStr = function(haystack , needle){
+    if(needle.length === 0){
+        return 0
+    }
+
+    let arr = [];
+    for(let i=0; i<= haystack.length - needle.length; i++){
+let sub = haystack.substring(i, i+needle.length)
+if(sub === needle){
+    arr.push(i)
+}
+    }
+     if(arr.length > 0){
+        return arr[0] 
+    }
+        return -1
+}
