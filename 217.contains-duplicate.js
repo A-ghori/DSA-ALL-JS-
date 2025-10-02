@@ -11,7 +11,8 @@
  */
 var containsDuplicate = function(nums) {
     const duplicate = new Set ();
-    for(let i=0; i<nums.length; i++){
+    for(let i=0;
+         i<nums.length; i++){
         if(duplicate.has(nums[i])){
             return true;
         }
