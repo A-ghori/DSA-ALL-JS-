@@ -3,6 +3,8 @@
  // i,j   i = 1 and j =8 
 
 
+// This is Brute Force Approach 
+
 var container = function(height){
 	let maxArea = 0;
 	for(let i=0; i<height.length; i++){
