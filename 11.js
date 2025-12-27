@@ -16,6 +16,7 @@ var container = function(height){
 		//width = 8 - 0 = 8
 		// Math.min(height[left] = 1 and height[right] = 7) -> 1  is min 
 		// and then area = 8 * 1 = 8
+		// MaxArea = 0 , 8 -> 8 is the max 
 		// height[left] < height[right] -> 1 < 7 true then left ++ now point the lft pointer to 3 
 let width = right - left; // 8 - 0 = 8
 let minHeight = Math.min(height[left] , height[right]);    // let say height[left] = 1 height[right] = 7 which is min 1 

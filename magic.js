@@ -30,7 +30,7 @@ sum = sum + Number(digits[i])
 n = sum 
   }
 
-  console.log("✅ Final magic number:", n);
+  console.log(" Final magic number:", n);
   return n
 }
 

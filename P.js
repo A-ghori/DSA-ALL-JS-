@@ -8,3 +8,7 @@ var plusOne = function(digits) {
     nums = digits ([1,1,1])
     console.log(nums)
 };
+
+
+// [1,2,3]
+//[1,2,4]
