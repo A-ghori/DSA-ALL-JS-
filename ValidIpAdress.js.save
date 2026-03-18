@@ -1,0 +1,45 @@
+//Given a string s, partition s such that every of the partition is a
+
+//. Return all possible palindrome partitioning of s.
+
+ 
+
+//Example 1:
+
+//Input: s = "aab"
+//Output: [["a","a","b"],["aa","b"]]
+
+//Example 2:
+
+//Input: s = "a"
+//Output: [["a"]]
+
+
+
+function isPalindrome (s) {
+let result = [];
+
+function palindrome(s, l, r) {
+while(l < r ){
+if(s[l++] !== s[r]) return false;
+}
+return true;
+}
+
+
+function backtrack(start,curr){
+if(start === s.length) {
+// push back to 
+result.push([...curr])
+return 
+}
+
+for(let i=start; i<result.length; i++){
+if(palindrome(s, start,i)){
+// push 
+curr.push(s.substring(i+1, start))
+
+
+
+}
+
