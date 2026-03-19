@@ -1,4 +1,6 @@
-class Node {const root = new Node(preorder[this.idx]);
+class Node {
+
+//const root = new Node(preorder[this.idx]);
 
 
 constructor(data){
@@ -30,7 +32,9 @@ return root;
 }
 
 
-let preorder = [1, 2, 3, -1, -1, 4, -1, -1, 5, 6, -1, -1, 7, 8, -1, -1, 9, -1, -1]
+//let preorder = [1, 2, 3, -1, -1, 4, -1, -1, 5, 6, -1, -1, 7, 8, -1, -1, 9, -1, -1]
+let preorder = [1,2,3,4,5,-1,8,-1,-1,6,7,9]
+
 let bt = new BinaryTree();
 let root = bt.buildtree(preorder);
 console.log("Index is ",bt.idx)

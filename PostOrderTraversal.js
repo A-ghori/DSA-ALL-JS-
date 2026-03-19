@@ -33,13 +33,13 @@ this.preOrderTraversal(root.right)
 }
 
 // In-Order 
-// left -> print -> right
+// left -> print root -> right
 inOrderTraversal(root) {
 
 if(root === null) return
-this.postOrderTraversal(root.left)
+this.inOrderTraversal(root.left)
 console.log(root.data);
-this.postOrderTraversal(root.right);
+this.inOrderTraversal(root.right);
 }
 
 // Post-Order
@@ -53,18 +53,18 @@ console.log(root.data);
 }
 
 
-// IMPORTANT: Postorder array ko reverse karna padega build ke liye
-let postorder = [ -1, -1, 2, -1, -1, 4, -1, -1, 5, 3, 1 ];
-postorder.reverse(); //  very important
+// Data Setup
+let postorderArr = [-1, -1, 2, -1, -1, 4, -1, -1, 5, 3, 1];
+postorderArr.reverse(); // Now the array is [1, 3, 5, -1, -1, 4, -1, -1, 2, -1, -1]
 
 let bt = new BinaryTree();
-let root = bt.buildTree(postorder);
+let root = bt.buildTree(postorderArr);
 
-console.log("Preorder:");
+console.log("--- Preorder ---");
 bt.preOrderTraversal(root);
 
-console.log("Inorder:");
+console.log("--- Inorder ---");
 bt.inOrderTraversal(root);
 
-console.log("Postorder:");
+console.log("--- Postorder ---");
 bt.postOrderTraversal(root);
